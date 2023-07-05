@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>my app</title>
+    </head>
+
+    <body>
+        <!-- navbar -->
+
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"> <a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </header>
+
+        <!-- Events -->
+
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="./img/img1.png" alt="" class="img-events">
+                    <h4>Everest Camo Treak</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae eius beatae doloribus cupiditate
+                        ipsa alias nesciunt mollitia laboriosam iste nemo!</p>
+
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col">
+                    <img src="./img/img2.png" alt="" class="img-events">
+                    <h4>Walking Holidays</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae eius beatae doloribus cupiditate
+                        ipsa alias nesciunt mollitia laboriosam iste nemo!</p>
+
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col">
+                    <img src="./img/img1.png" alt="" class="img-events">
+                    <h4>Everest Camo Treak</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae eius beatae doloribus cupiditate
+                        ipsa alias nesciunt mollitia laboriosam iste nemo!</p>
+                
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Explore -->
+        <section class="explore">
+            <div class="explore-content">
+                <h1>Explore The World</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit, a voluptatum quae quasi
+                    ducimus,
+                    ex ad ipsum voluptatibus iste quo ipsam, vitae quis dolores!</p>
+                <a href="#" class="explore-btn">Learn more</a>
+            </div>
+        </section>
+
+        <!-- secion tours -->
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quidem incidunt expedita,
+                        consequatur deleniti neque excepturi reiciendis quaerat. Ipsum, quod?</p>
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./img/img3.png" alt="">
+                        <img src="./img/img4.png" alt="">
+                        <img src="./img/img5.png" alt="">
+                        <img src="./img/img6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consectetur rerum vitae esse velit nihil!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, enim?
+            </p>
+        </section>
+    </body>
+    <script>
+        const menuBtn = document.querySelector( '.menu-btn' );
+        const navLinls = document.querySelector( '.nav-links' )
+        menuBtn.addEventListener( 'click', () =>
+        {
+            navLinls.classList.toggle( 'mobile-menu' )
+        } )
+    </script>
+
+</html>
